@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.my_img{
+    height: 60vh;
+    width: 75vw;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+.arrow{
+    background-color: rgba(90, 64, 238, 0.484);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+#next{
+    top: 16%;
+    right: 50%;
+    position: fixed;
+    translate: 50% 50%;
+}
+
+#previous{
+    bottom: 26%;
+    right: 50%;
+    position: fixed;
+    translate: 50% 50%;
+}
+
+.my_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
